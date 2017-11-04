@@ -29,4 +29,3 @@ def now_serving(katz_deli)
     puts "There is nobody in line."
   end
 end
-
