@@ -20,8 +20,3 @@ katz_deli << name
 number = katz_deli.index(name)+1
 puts "Welcome #{name}, you are number #{number} in line."
 end
-
-
-
-
-  
