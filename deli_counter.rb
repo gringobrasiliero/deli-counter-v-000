@@ -11,6 +11,6 @@ if katz_deli.length > 0
   end
   puts line.join(" ")
 else
-  puts puts "The line is currently empty."
+  puts "The line is currently empty."
 end
 end
