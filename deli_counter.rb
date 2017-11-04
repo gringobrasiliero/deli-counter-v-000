@@ -7,10 +7,12 @@ line = ["The line is currently:"]
 if katz_deli.length > 0
   while katz_deli.length > index
     line.push("#{index+1}. #{katz_deli[index]}")
-    index+= 1
+    index += 1
   end
   puts line.join(" ")
 else
   puts "The line is currently empty."
 end
 end
+
+
