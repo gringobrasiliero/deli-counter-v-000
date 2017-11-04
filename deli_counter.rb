@@ -5,7 +5,7 @@ def line(katz_deli)
 index = 0
 line = ["The line is currently:"]
 if katz_deli.length > 0
-  while array.length > index
+  while katz_deli.length > index
     line.push("#{index+1}. #{katz_deli[index]}")
     index+= 1
   end
